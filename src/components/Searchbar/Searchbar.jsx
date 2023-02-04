@@ -12,7 +12,7 @@ const Searchbar = ({ onSubmit }) => {
     const { name, value } = target;
     setState(prevState => {
       return {...prevState, [name]: value };
-    });
+    })
   };
 
   const handleSubmit = e => {
